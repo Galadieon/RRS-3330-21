@@ -142,6 +142,9 @@ WHERE Pa.Phone LIKE '605%'
 ORDER BY Pa.LastName DESC; 
 
 -- 9. List name of passengers that are traveling on Thursdays in ascending order.
+
+-- This prints out an empty set if thursday since train status has no thursday trains
+
 SELECT TrSt.TrainDate, Pa.FirstName, Pa.LastName
 FROM Passenger Pa, TrainStatus TrSt, Booking Bk, Train Tr
 WHERE Pa.SSN = Bk.SSN
