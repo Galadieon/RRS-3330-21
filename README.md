@@ -1,5 +1,7 @@
 # RRS-3330-21
 
+Run either in codespace or on Linux machine. Create codespace by clicking green button "Code" -> codespace -> "+".
+
 How to run the setup stuff:
 
 1. bash setupScript.bash
